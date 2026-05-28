@@ -20,7 +20,7 @@
         </p>
 
         <div class="flex flex-col sm:flex-row items-stretch sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 mt-8">
-            <a href="https://wa.me/{{ env('WHATSAPP_NUMBER', '6281234567890') }}" target="_blank" class="flex items-center justify-center space-x-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold px-8 py-4 rounded-xl transition shadow-[0_0_15px_rgba(245,158,11,0.3)] hover:scale-[1.02]">
+            <a href="https://wa.me/{{ env('WHATSAPP_NUMBER', '6288905130453') }}" target="_blank" class="flex items-center justify-center space-x-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold px-8 py-4 rounded-xl transition shadow-[0_0_15px_rgba(245,158,11,0.3)] hover:scale-[1.02]">
                 <span>💬 Request Quest via WhatsApp</span>
             </a>
             <a href="{{ route('public.quests') }}" class="flex items-center justify-center bg-slate-900/80 hover:bg-slate-800 border border-purple-500/30 hover:border-purple-500/70 text-purple-300 px-8 py-4 rounded-xl font-bold transition">
